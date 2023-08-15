@@ -36,7 +36,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 img,
 video {
@@ -44,9 +43,49 @@ video {
   height: auto;
 }
 /* Tailwind CSS Reset - https://tailwindcss.com/docs/preflight */
-
+div{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.font--white{
+  color: white;
+}
+.font--supertitle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+.font--light{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.font--title{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.font--regular{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.gap--small{
+  display: flex;
+  gap: 8px;
+}
+.gap--normal{
+  display: flex;
+  gap: 16px;
+}
+.gap--large{
+  display: flex;
+  gap: 24px;
 }
 
 .nav__link{
@@ -56,9 +95,10 @@ body {
   color: black;
 }
 
-.navbar__toggler{
+.button--toggler{
   border: none;
   background: transparent;
+  padding: 0;
 }
 
 .sidebar__title{
@@ -71,7 +111,10 @@ body {
   max-width: 180px;
 }
 
-.nav__button{
+.button--transition{
+  transition: 300ms;
+}
+.button--green{
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -81,9 +124,10 @@ body {
   color: white;
   max-width: fit-content;
   border-radius: 2px;
+  text-decoration: none;
 }
 
-.nav__button:hover{
+.button--green:hover{
   color: white;
   background: #51a353;
 }
