@@ -74,6 +74,11 @@ body {
   line-height: 20px;
   font-weight: 400;
 }
+.font--feature{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
 
 .gap--small{
   display: flex;
@@ -145,4 +150,54 @@ body {
 
 .hero__section{
   background: #F1F3FF;
+}
+
+
+.whyus__card{
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.whyus__card--gap{
+  padding: 16px !important;
+}
+
+.whyus__icon{
+  width: 32px;
+  height: 32px;
+}
+
+.whyus__content--container{
+  width: calc(100% + 32px) !important;
+  margin-left: -16px !important;
+}
+
+.testimonial__content--container{
+  margin-top: 40px !important;
+  background: #F1F3FF;
+  border-radius: 8px;
+  padding: 69px 0px 69px 0px !important;
+}
+
+.testimonial__carousel_item--container{
+  display: flex;
+  gap: 40px;
+}
+
+.testimonial__carousel--container{
+  margin: 0 auto 0 auto;
+  width: 60%;
+}
+
+.testimonal__image{
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial__icon{
+  width: 56px;
+  height: 56px;
 }
