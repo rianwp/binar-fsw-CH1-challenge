@@ -13,7 +13,7 @@
     <div class="row justify-content-center m-0 p-0">
       <div class="col-md-10 col-11 m-0 p-0">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="">
             <div class="nav__brand"></div>
           </a>
           <button class="navbar-toggler button--toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 nav__flex">
                 <li class="nav-item">
-                  <a class="nav-link nav__link" href="">Our Services</a>
+                  <a class="nav-link nav__link" href="#ourservices">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">Why Us</a>
+                  <a class="nav-link nav__link" href="#whyus">Why Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">Testimony</a>
+                  <a class="nav-link nav__link" href="#testimonial">Testimonial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">FAQ</a>
+                  <a class="nav-link nav__link" href="#faq">FAQ</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link button--green" href="#">Register</a>
@@ -62,7 +62,7 @@
   </div>
 
   <!-- Our Services -->
-  <div class="row justify-content-center align-items-center py-5 m-0 p-0">
+  <div id="ourservices" class="row justify-content-center align-items-center py-5 m-0 p-0">
     <div class="col-md-4 col-11 p-md-5 p-4 m-0 p-0">
       <img class="w-100 h-100" src="img/img_service.svg">
     </div>
@@ -95,7 +95,7 @@
   </div>
 
   <!-- Why Us? -->
-  <div class="py-5 m-0 p-0">
+  <div id="whyus" class="py-5 m-0 p-0">
     <div class="row justify-content-center m-0 p-0">
       <div class="col-md-10 col-11 m-0 p-0">
         <div class="flex-column gap--normal">
@@ -141,7 +141,7 @@
   </div>
 
   <!-- Testimonial-->
-  <div class="py-5 m-0 p-0">
+  <div id="testimonial" class="py-5 m-0 p-0">
     <div class="flex-column gap--normal text-center">
       <h1 class="font--title">Testimonial</h1>
       <p class="font--light">Berbagai review positif dari para pelanggan kami</p>
@@ -185,7 +185,7 @@
   </div>
 
   <!--CTA Banner-->
-  <div class="m-0 p-0 my-5">
+  <div id="cta" class="m-0 p-0 my-5">
     <div class="row justify-content-center m-0 p-0">
       <div class="col-md-10 col-11 m-0 cta__content--container">
         <div class="flex-column gap--normal text-white text-center">
@@ -198,7 +198,7 @@
   </div>
 
   <!--FAQ-->
-  <div class="m-0 p-0 py-5 row justify-content-center">
+  <div id="faq" class="m-0 p-0 py-5 row justify-content-center">
     <div class="col-md-4 col-11 m-0 p-0 flex-column gap--normal mb-4 pe-4">
       <h1 class="font--title">Frequently Asked Question</h1>
       <p class="font--light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -268,6 +268,50 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="py-5 m-0 p-0 row justify-content-center">
+    <div class="col-md-10 col-11 m-0 p-0">
+      <div class="row justify-content-center p-0 m-0">
+        <div class="col-md-3 col-12 m-0 flex-column gap--normal mb-3">
+          <p class="font--light">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p class="font--light">binarcarrental@gmail.com</p>
+          <p class="font--light">081-233-334-808</p>
+        </div>
+        <div class="col-md-3 col-12 m-0 flex-column gap--normal mb-3">
+          <a href="#ourservices" class="nav-link font--regular">Our services</a>
+          <a href="#whyus" class="nav-link font--regular">Why Us</a>
+          <a href="#testimonial" class="nav-link font--regular">Testimonial</a>
+          <a href="#faq" class="nav-link font--regular">FAQ</a>
+        </div>
+        <div class="col-md-3 col-12 m-0 flex-column gap--normal mb-3">
+          <p class="font--light">Connect with us</p>
+          <div class="flex-row gap--normal">
+            <a href="#">
+              <img src="img/icon_facebook.svg">
+            </a>
+            <a href="#">
+              <img src="img/icon_instagram.svg">
+            </a>
+            <a href="#">
+              <img src="img/icon_twitter.svg">
+            </a>
+            <a href="#">
+              <img src="img/icon_mail.svg">
+            </a>
+            <a href="#">
+              <img src="img/icon_twitch.svg">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-12 m-0 flex-column gap--normal mb-3">
+          <p class="font--light">Copyright Binar 2022</p>
+          <div class="nav__brand"></div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
