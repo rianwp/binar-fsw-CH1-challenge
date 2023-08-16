@@ -198,6 +198,11 @@ body {
   width: 56px;
   height: 56px;
 }
+.testimonial__star{
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
 
 .cta__content--container{
   background: #0D28A6;
