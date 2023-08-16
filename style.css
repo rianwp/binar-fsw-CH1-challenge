@@ -51,9 +51,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.font--white{
-  color: white;
-}
 .font--supertitle{
   font-weight: 700;
   font-size: 36px;
@@ -200,4 +197,19 @@ body {
 .testimonial__icon{
   width: 56px;
   height: 56px;
+}
+
+.cta__content--container{
+  background: #0D28A6;
+  border-radius: 13px;
+  padding: 64px 0 64px 0 !important;
+}
+
+.margin--cta{
+  margin-top: 36px !important;
+}
+
+.faq__card{
+  border: 1px solid #D4D4D4 !important;
+  border-radius: 4px !important;
 }
